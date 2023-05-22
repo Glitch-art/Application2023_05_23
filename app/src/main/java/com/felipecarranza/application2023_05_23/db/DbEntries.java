@@ -117,4 +117,19 @@ public class DbEntries extends DbHelper {
         }
         return result;
     }
+
+    public boolean deleteEntry(int id) {
+        boolean result = false;
+        DbHelper dbHelper = new DbHelper(context);
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        try {
+            db.execSQL("DELETE FROM " + TABLE_NAME + " WHERE id = " + id);
+            result = true;
+        } catch (Exception e) {
+            e.toString();
+        } finally {
+            db.close();
+        }
+        return result;
+    }
 }
