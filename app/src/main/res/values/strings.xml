@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Application2023_05_23</string>
+    <string name="app_name">Diario</string>
+    <string name="hint_title">Título:</string>
+    <string name="hint_content">Contenido:</string>
+    <string name="btn_save">Guardar</string>
+    <string name="menu_new">Nueva entrada</string>
 </resources>

@@ -11,7 +11,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     // Atributos
     private static final String DB_NAME = "diary.db";
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 3;
     protected static final String TABLE_NAME = "entries";
 
     // Sentencia SQL para crear la tabla
