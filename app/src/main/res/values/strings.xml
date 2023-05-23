@@ -4,5 +4,5 @@
     <string name="hint_content">Contenido:</string>
     <string name="btn_save">Guardar</string>
     <string name="btn_delete">Eliminar</string>
-    <string name="menu_new">Nueva entrada</string>
+    <string name="menu_new">Nueva Nota</string>
 </resources>
